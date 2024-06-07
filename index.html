@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5 p-5 rounded shadow-lg">
+        <h1 class="text-center">Stopwatch</h1>
+        <div id="display" class="display-4 text-center mb-4">00:00:00.000</div>
+        <div class="controls text-center">
+            <button id="startStopBtn" class="btn btn-lg mx-2">Start</button>
+            <button id="resetBtn" class="btn btn-lg mx-2">Reset</button>
+            <button id="lapBtn" class="btn btn-lg mx-2">Lap</button>
+        </div>
+        <ul id="laps" class="list-group list-group-flush mt-4"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #001f3f, #1a1a2e);
+    color: white;
+}
+
+.container {
+    max-width: 500px;
+    text-align: center;
+    background-color: #ffe6e6; /* Light Pink */
+    padding: 30px;
+    border-radius: 50px; /* More rounded shape */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: #1a1a2e;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 5px;
+    background-color: #E6E6FA; /* Light Lavender */
+    color: #1a1a2e; /* Dark Text */
+    border: none;
+    border-radius: 25px; /* Rounded buttons */
+    padding: 10px 20px;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #D8BFD8; /* Thistle */
+    color: #fff;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#laps li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(26, 26, 46, 0.2); /* Dark border */
+    background-color: rgba(255, 255, 255, 0.7); /* Light background */
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #1a1a2e; /* Dark Text */
+}
